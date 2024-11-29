@@ -1,0 +1,87 @@
+.easycarousels .product-miniature .product-title {
+	margin: 5px;
+}
+.easycarousels .regular-price {
+    color: #ACAAA6;
+    text-decoration: line-through;
+    font-size: .875rem;
+}
+.easycarousels .product-miniature .product-description,
+.easycarousels .product-miniature .thumbnail-container {
+	background: #FFF;
+	height: auto;
+	width: auto;
+	margin: 0;
+	position: relative;
+}
+.easycarousels .product-miniature .product-description {
+	padding: 10px 0;
+}
+.product-item-buttons .btn {
+	border-width: .15rem;
+	box-shadow: none;
+	margin-top: 10px;
+}
+.easycarousels .product-flags {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.easycarousels .product-flags li {
+    margin: .4rem 0.8rem 0 -.4375rem;
+    float: left;
+    clear: left;
+    padding: .3125rem .4375rem;
+    color: #FFF;
+    background: #2FB5D2;
+    text-transform: uppercase;
+    font-size: 1rem;
+    box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+}
+.easycarousels .product-flags li.discount-percentage,
+.easycarousels .product-flags li.on-sale {
+	background: #f39d72;
+}
+.easycarousels .product-flags li.on-sale {
+	clear: none;
+	float: right;
+	margin-right: -.4375rem;
+}
+.easycarousels .product-flags li.discount {
+	display: none;
+}
+.c_item .prop-line {
+	font-size: 0.9em;
+	line-height: 1.3;
+}
+/* quick view */
+.easycarousels .product-miniature .highlighted-informations {
+	position: absolute;
+	background: #FFF;
+	bottom: auto;
+	height: 31px;
+	line-height: 28px;
+	padding: 0;
+	font-size: 0.9em;
+	width: 100%;
+	transition: margin .3s;
+}
+.easycarousels .product-miniature .highlighted-informations a {
+	color: #999;
+}
+.easycarousels .product-miniature .thumbnail-container:hover .highlighted-informations {
+	margin-top: -31px;
+	bottom: auto;
+}
+/* availability */
+.c_item .product-availability span{
+	display: inline-block;
+	max-width: 100%;
+	padding: 2px 5px;
+	background: #4CBB6C;
+	color: #FFF;
+}
+.c_item .product-availability.unavailable span{
+	background: #FF9A52;
+}
+/* since 2.5.0 */
